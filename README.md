@@ -10,6 +10,7 @@ sudo docker run -it -v $(pwd):/usr/src/app ionic2-docker ionic start myApp tabs
 ```
 
 ## Ambiente de desenvolvimento
+Antes de começar, dentro do `docker-compose.yml` altere o {NOME_APP} para o nome do diretório do seu app.
 
 #### 1. Build das containers 
 ```
